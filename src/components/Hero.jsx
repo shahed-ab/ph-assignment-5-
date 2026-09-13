@@ -14,7 +14,7 @@ export default function Hero({ onExploreClick }) {
           <div className="lg:col-span-7 space-y-6 text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-[56px] font-extrabold text-slate-900 tracking-tight leading-[1.15]">
               Build Your Ideal <br className="hidden sm:inline" />
-              <span className="text-brand-gradient">Development Stack</span>
+              <span className="text-brand-gradient">Development Stacks</span>
             </h1>
 
             <p className="text-slate-600 text-base sm:text-lg max-w-xl leading-relaxed">
