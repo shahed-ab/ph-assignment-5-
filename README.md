@@ -67,9 +67,10 @@ npm run build
 
 ## 🧠 React Core Concepts & Q&A
 
-1. What is JSX, and why is it used in React? JSX lets me write HTML-looking markup right inside my JS files. I used it because it's way easier to visualize my UI structure this way instead of writing plain React.createElement() calls everywhere. Vite compiles it down to regular JS behind the scenes.
+### 1. 1. What is JSX, and why is it used in React?
+JSX lets me write HTML-looking markup right inside my JS files. I used it because it's way easier to visualize my UI structure this way instead of writing plain React.createElement() calls everywhere. Vite compiles it down to regular JS behind the scenes.
 
-2. What is the difference between props and state? Props are data a component gets from its parent — it can't change them, just use them. State is data a component manages on its own and can update, which then re-renders the UI automatically.
+### 2. What is the difference between props and state? Props are data a component gets from its parent — it can't change them, just use them. State is data a component manages on its own and can update, which then re-renders the UI automatically.
 
 ### 3. What does the `useState` hook do, and where did you use it in this project?
 The `useState` hook allows functional components to declare and manage reactive state variables. It returns an array with two elements: the current state value and a function to update that state.
