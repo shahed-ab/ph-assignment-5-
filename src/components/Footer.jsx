@@ -11,13 +11,13 @@ export default function Footer() {
           <div className="lg:col-span-5 space-y-4">
             <a href="#" className="inline-block">
               <img
-                src="/assets/logo-text.png"
+                src="./assets/logo-text.png"
                 alt="Dev Stack"
                 className="h-8 w-auto object-contain"
               />
             </a>
             <p className="text-slate-500 text-sm max-w-sm leading-relaxed">
-              Curated tools, technologies, and resources for developers building modern software.
+              Curated tools, technologies, and resources for developers building modern softwares.
             </p>
             <div className="flex items-center gap-4 pt-2 text-sm font-medium text-slate-700">
               <a 
