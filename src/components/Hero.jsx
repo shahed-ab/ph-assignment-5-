@@ -12,16 +12,16 @@ export default function Hero({ onExploreClick }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
           <div className="lg:col-span-7 space-y-6 text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-[56px] font-extrabold text-slate-900 tracking-tight leading-[1.15]">
+            <h1 className="text-4xl sm:text-5xl lg:text-[58px] font-extrabold text-slate-900 tracking-tight leading-[1.15]">
               Build Your Ideal <br className="hidden sm:inline" />
               <span className="text-brand-gradient">Development Stacks</span>
             </h1>
 
             <p className="text-slate-600 text-base sm:text-lg max-w-xl leading-relaxed">
-              Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.
+              Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next projects.
             </p>
 
-            <div className="flex flex-wrap items-center gap-4 pt-2">
+            <div className="flex flex-wrap items-center gap-5 pt-2">
               <a
                 href="#technologies"
                 onClick={onExploreClick}
