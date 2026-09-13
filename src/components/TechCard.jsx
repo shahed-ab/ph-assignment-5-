@@ -38,7 +38,7 @@ export default function TechCard({ tech, isAdded, onAdd }) {
               className="w-full h-full object-contain"
               onError={(e) => {
                 e.target.onerror = null
-                e.target.src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                e.target.src = "[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg) "
               }}
             />
           </div>
