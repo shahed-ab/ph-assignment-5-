@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-slate-100 pt-16 pb-12 mt-24">
+    <footer className="bg-white border-t border-slate-100 pt-16 pb-12 mt-25">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12">
@@ -29,12 +29,12 @@ export default function Footer() {
                 GitHub
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://x.com/home" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hover:text-rose-500 transition-colors"
               >
-                Twitter
+                X
               </a>
               <a 
                 href="https://linkedin.com" 
